@@ -1,0 +1,9 @@
+Text_Dark : 391400
+Text_Dark_Accent : EF6D58
+Text_Dark_Gray : 391400
+Text_Light : FFFFFF
+Text_Light_Accent: EF6D58
+Text_Light_Gray : FFFFFF 
+violet : B550F8
+
+Text Style : Epilogue
