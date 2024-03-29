@@ -54,6 +54,23 @@ a:hover {
   color: #ffc107;
 }
 
+.logo:hover {
+  transform: scale(1);
+
+}
+
+button {
+  color: white;
+  background-color: #38CC77;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #cc38c0;
+}
 
 /* ==========================================================================
    Base styles: opinionated defaults
