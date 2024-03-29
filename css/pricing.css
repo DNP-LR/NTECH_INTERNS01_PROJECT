@@ -1,3 +1,7 @@
+
+
+
+
 /* Reset default styles */
 * {
   margin: 0;
@@ -6,17 +10,15 @@
 }
 
 /* Body styles */
-body {
+body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
 }
-
 /* Navigation styles */
 nav {
-  background-color: #333;
+  background-color: #351e44;
   color: #fff;
 }
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -87,3 +89,4 @@ a:hover {
     text-shadow: none !important;
   }
 }
+266333333333333
