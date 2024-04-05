@@ -29,7 +29,7 @@ nav {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 30px;
   margin: 0;
   color: #fff;
 }
@@ -37,8 +37,9 @@ h1 {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: ;
   display: flex;
+  padding-right: 40%;
 }
 
 li {
@@ -48,8 +49,9 @@ li {
 a {
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   transition: color 0.3s ease;
+  justify-content: space-between;
 }
 
 a:hover {

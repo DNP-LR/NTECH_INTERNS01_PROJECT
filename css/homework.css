@@ -1,0 +1,143 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blACK;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* Todo replace everywher you have used a comma */
+/* Todo use only only one naming convention */
+nav, .nav-links {
+    display: flex;
+    
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+
+a {
+    
+    text-decoration: none;
+    text-decoration-color: white;
+    color: #fff;
+
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color:rgb(157, 11, 11);
+}
+
+.logo {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+h1 {
+    align-items: center;
+}
+
+section {
+    display: flex;
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    
+
+
+.header {
+    
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    gap: 5rem;
+
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text__p1 {**
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    color: WHITE;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+ .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 60px;
+    padding-left: 280px;
+    padding-top: 20px;
+ }
+
+ .btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background:orange;
+    border: 2px solid rgb(79, 59, 59)3, 79, 79);
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+ }
+
+ .btn-box a:hover {
+    color: white;
+    background:red;
+ }
+
+ 
+ section .logo-box-container {
+    width: 1000px;
+    height: 90px;
+    background-color: black;
+    border-radius: 15px;
+    opacity: 25%;
+    
+ }
+
+#body-text {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    gap: 5rem;
+
+}
+
