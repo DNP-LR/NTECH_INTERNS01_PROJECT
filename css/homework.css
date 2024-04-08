@@ -1,10 +1,6 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: blACK;
-}
-
-html {
-    scroll-behavior: smooth;
+    background-color: black;
 }
 
 p {
@@ -13,11 +9,15 @@ p {
 
 /* Todo replace everywher you have used a comma */
 /* Todo use only only one naming convention */
-nav, .nav-links {
+nav {
     display: flex;
     
 }
 
+.nav-links {
+    display: flex;
+    
+}
 nav {
     justify-content: space-around;
     align-items: center;
@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-    color: red;
+    color:gray;
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color:rgb(157, 11, 11);
@@ -101,28 +101,6 @@ section {
     padding-left: 280px;
     padding-top: 20px;
  }
-
- .btn-box a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 100%;
-    background:orange;
-    border: 2px solid rgb(79, 59, 59)3, 79, 79);
-    border-radius: 30px;
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
- }
-
- .btn-box a:hover {
-    color: white;
-    background:red;
- }
-
  
  section .logo-box-container {
     width: 1000px;
@@ -141,3 +119,36 @@ section {
 
 }
 
+#btn-1 {
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background:orange;
+    border: 2px solid rgb(79, 59, 59)3, 79, 79);
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#btn-2 {
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background:rgb(97, 82, 54);
+    
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

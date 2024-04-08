@@ -1,94 +1,79 @@
-
-
-
-
-/* Reset default styles */
-* {
+*{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #B550F8;
+
 }
 
-/* Body styles */
-body{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
-}
-/* Navigation styles */
-nav {
-  background-color: #351e44;
-  color: #fff;
-}
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-h1 {
-  font-size: 30px;
-  margin: 0;
-  color: #fff;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: ;
-  display: flex;
-  padding-right: 40%;
-}
-
-li {
-  margin-right: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
+button {
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 5px;
   font-size: 20px;
-  transition: color 0.3s ease;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
   justify-content: space-between;
-}
 
-a:hover {
-  color: #ffc107;
-}
-
-
-/* ========================9==================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
+  .section_logo{
+    display: flex;
+    justify-content: start;
+    align-content: start;
+  }
+  .section_links{
+    .nav_links{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      list-style: none;
+      gap: 4rem;
+      font-size: 1.5rem;
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding-right: 30px;
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+      }
+      
+      li {
+        margin-right: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        transition: color 0.3s ease;
+        justify-content: space-between;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+          text-decoration-color:white;
+      }
+    }
+  }
+  
+  .section_button{
+    display: flex;
+    align-content: center;
+    margin-right: 30px;
+    #btn_1{
+      background: #351e44;
+      color: #fff;
+      align-items: end;
+    }
   }
 }
-266333333333333
