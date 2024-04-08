@@ -1,0 +1,39 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+  }
+  nav {
+    background-color: #3c2d40;
+    color: #fff;
+    padding-left:3% ;
+  }
+
+
