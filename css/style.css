@@ -51,7 +51,7 @@ a {
 }
 
 a:hover {
-  color: #ffc107;
+  color: #d71616;
 }
 
 .logo:hover {
@@ -65,7 +65,7 @@ button {
   padding: 5px;
   margin: 5px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 button:hover {
