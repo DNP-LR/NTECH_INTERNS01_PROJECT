@@ -79,7 +79,7 @@ nav{
     }
   }
 }
-
+/* to do replace gap with anather element */
 .head_section {
   display: flex;
   gap: 8rem;
@@ -161,14 +161,15 @@ background-color: #28293e;
 .page_body {
   background-color: #fff;
   height: 100vh;
+  
 }
 .body_logo {
   align-items: center;
   display: flex;
-  margin: 50px;
+  justify-content: space-between;
   background-color: #fff;
-  gap: 9.5rem;
-  margin-left: 15px;
+  padding: 30px;
+ 
 }
 .body_section {
   display: flex;
